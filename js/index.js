@@ -113,9 +113,7 @@ function formValidator(ev) {
       console.log(data);
       // Clear text-fields
 
-      fName.value = '';
-      email.value = '';
-      message.value = '';
+      fm.reset();
 
       // End your conditional here.
 
